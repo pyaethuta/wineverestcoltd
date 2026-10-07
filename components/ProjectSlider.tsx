@@ -63,7 +63,7 @@ export default function ProjectSlider({ projects }: { projects: ProjectCard[] })
               <span>{project.category}</span>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
-              <Link className="text-link" href={`/projects/${project.slug}`}>View details</Link>
+              <Link className="text-link" href={`/projects/${project.slug}`}>View detail</Link>
             </div>
           </article>
         ))}
