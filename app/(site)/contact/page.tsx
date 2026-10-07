@@ -14,7 +14,7 @@ export default function Contact() {
     e.preventDefault();
     // Handle form submission here
     console.log('Form submitted:', formData);
-    alert('Thank you for your enquiry! We will get back to you soon.');
+    alert('Thank you for contacting us! We will get back to you soon.');
     setFormData({ name: '', contact: '', service: '', message: '' });
   };
 
